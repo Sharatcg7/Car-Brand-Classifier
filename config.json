@@ -1,0 +1,21 @@
+{
+  "input_H" : 224,
+  "input_W" : 224,
+  "num_class" : 3,
+  "num_epochs" : 30,
+  "batch_size" : 32,
+  "tensorboard_steps" : 1,
+  "log_dir" : "./output",
+  "train_path" : "data/train",
+  "val_path" : "data/val",
+  "test_path" : "data/test",
+
+
+  "urls": ["https://source.unsplash.com/random/?car,audi",
+         "https://source.unsplash.com/random/?car,mercedes",
+         "https://source.unsplash.com/random/?car,bmw"
+  ],
+  "saved_model" : "output/2021-01-06-11-58/final_state_model.h5"
+
+
+}

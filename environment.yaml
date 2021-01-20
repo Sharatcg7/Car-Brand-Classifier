@@ -1,0 +1,20 @@
+name: car_brand
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.6
+  - tqdm
+  - numpy=1.14.2
+  - notebook
+  - pip:
+    - tensorflow
+    - matplotlib
+    - scikit-learn
+    - keras-tqdm
+    - livelossplot
+    - numpy
+    - selenium
+    - pillow
+    - bs4
